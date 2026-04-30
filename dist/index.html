@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio site for Sabrina Garcia, Fine Arts and Visual Technology student.">
+  <title>Sabrina Garcia | Personal Site</title>
+  <script type="module" crossorigin src="/assets/index-Cdx_dgJ0.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CTIILtnE.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#intro">Sabrina Garcia</a>
+    <nav aria-label="Main navigation">
+      <a href="#intro">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#three-showcase">3D</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="intro" class="card hero" aria-labelledby="hero-title">
+      <p class="eyebrow">Design & Visual Technology Student</p>
+      <h1 id="hero-title">Building visual stories through design and code.</h1>
+      <p class="lead">
+        I’m a Fine Arts and Visual Technology student exploring web design,
+        visual storytelling, and interactive experiences. This portfolio is
+        where I share my projects as I grow in HTML, CSS, and 3D design.
+      </p>
+      <div class="hero-actions">
+        <a class="button" href="#projects">View Projects</a>
+        <a class="button ghost" href="#three-showcase">Open 3D Preview</a>
+      </div>
+    </section>
+
+    <section id="projects" class="card" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <p>
+        Early web experiments from coursework and personal practice—HTML, CSS,
+        and JavaScript-built pages you can open in a new tab.
+      </p>
+      <ul class="project-grid" role="list">
+        <li>
+          <article class="project-card">
+            <h3 class="project-card-title">Water Quest</h3>
+            <p class="project-card-desc">
+              A grid-based collection game with difficulty levels, timed rounds,
+              and links to clean water awareness.
+            </p>
+            <a class="button ghost project-card-link" href="/work/water-quest/">Open project</a>
+          </article>
+        </li>
+        <li>
+          <article class="project-card">
+            <h3 class="project-card-title">NASA Space Explorer</h3>
+            <p class="project-card-desc">
+              Browse NASA imagery by date range with a gallery and detail modal.
+            </p>
+            <a class="button ghost project-card-link" href="/work/nasa-space-explorer/">Open project</a>
+          </article>
+        </li>
+        <li>
+          <article class="project-card">
+            <h3 class="project-card-title">L’Oréal Beauty Assistant</h3>
+            <p class="project-card-desc">
+              A conversational beauty advisor chat UI with category prompts.
+            </p>
+            <a class="button ghost project-card-link" href="/work/loreal-chatbot/">Open project</a>
+          </article>
+        </li>
+        <li>
+          <article class="project-card">
+            <h3 class="project-card-title">L’Oréal Routine Builder</h3>
+            <p class="project-card-desc">
+              Filter and explore products by category with a routine-style layout.
+            </p>
+            <a class="button ghost project-card-link" href="/work/loreal-routine-builder/">Open project</a>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section id="certifications" class="card" aria-labelledby="cert-title">
+      <h2 id="cert-title">Certification</h2>
+      <p>
+        Intel Global Career Accelerator - Web Development: Building a website
+        using AI.
+      </p>
+      <figure class="certification-badge">
+        <img
+          src="/assets/web-development-badge-BIvLOVLG.png"
+          alt="Intel Global Career Accelerator Web Development badge"
+          loading="lazy"
+        >
+      </figure>
+    </section>
+
+    <section id="three-showcase" class="card" aria-labelledby="three-title">
+      <h2 id="three-title">3D Showcase</h2>
+      <p>
+        This section demonstrates an interactive Three.js scene. On capable
+        devices, it loads a GLB model and enables mouse/touch orbit controls.
+      </p>
+      <div id="model-viewer" role="img" aria-label="Interactive 3D model preview"></div>
+      <p id="model-status" class="status" aria-live="polite">
+        Waiting to initialize 3D preview...
+      </p>
+      <noscript>
+        <p class="status">Enable JavaScript to view the interactive 3D scene.</p>
+      </noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Created by Sabrina Garcia.</p>
+  </footer>
+
+</body>
+</html>

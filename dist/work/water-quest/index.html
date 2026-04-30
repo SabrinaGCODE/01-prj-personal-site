@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Water Quest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Water Quest</h1>
+
+    <p class="game-instructions">
+      Choose a difficulty and collect water cans before time runs out!
+    </p>
+
+    <div class="difficulty" id="difficulty-buttons">
+      <button type="button" onclick="setDifficulty('easy')">Easy</button>
+      <button type="button" onclick="setDifficulty('normal')">Normal</button>
+      <button type="button" onclick="setDifficulty('hard')">Hard</button>
+    </div>
+
+    <div class="stats">
+      <p>Cans Collected: <span id="current-cans">0</span></p>
+      <p>Time Left: <span id="timer">30</span>s</p>
+    </div>
+
+    <div id="achievements" class="achievement"></div>
+
+    <div class="game-grid"></div>
+
+    <button id="start-game" type="button">Start Game</button>
+
+    <div class="footer-links">
+      <a href="https://www.charitywater.org/" target="_blank" rel="noopener noreferrer">Learn More</a>
+      <a href="https://www.charitywater.org/donate" target="_blank" rel="noopener noreferrer">Donate</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
